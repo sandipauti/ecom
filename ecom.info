@@ -19,10 +19,13 @@ scripts[]= include/bootstrap/js/bootstrap.min.js
 
 ; Custome regions for theme
 
-regions['top_bar'] = Top bar region
-regions['header'] = Header region
-regions['navigation'] = Navigaion region
-regions['content'] = Main site content
-regions['content_bottom'] = Content bottom region
-regions['help'] = Help
-regions['footer'] = Footer region
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
