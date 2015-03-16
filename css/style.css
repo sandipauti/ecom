@@ -2,48 +2,116 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 14px;
+  color: #000;
+}
+/* line 7, ../sass/style.scss */
+body a {
+  color: #cb6898;
+}
+/* line 9, ../sass/style.scss */
+body a:hover {
+  color: #df5497;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .view-product-cateloge ul li {
   display: inline-block;
   width: 30%;
+  min-height: 275px;
 }
 @media only screen and (max-width: 640px) {
-  /* line 9, ../sass/style.scss */
+  /* line 17, ../sass/style.scss */
   .view-product-cateloge ul li {
     display: block;
     width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 9, ../sass/style.scss */
+  /* line 17, ../sass/style.scss */
   .view-product-cateloge ul li {
     width: 30.33%;
     margin: 5px;
   }
 }
+/* line 29, ../sass/style.scss */
+.view-product-cateloge ul li a {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 35, ../sass/style.scss */
+.view-product-cateloge ul .views-field-commerce-price {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  margin: 5px 0;
+}
 
 @media only screen and (max-width: 768px) {
-  /* line 24, ../sass/style.scss */
+  /* line 45, ../sass/style.scss */
   .col-sm-9 {
     width: 100% !important;
   }
 }
 
-/* line 30, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .navbar-header {
   width: 127px;
   height: 127px;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .menu.main-menu {
   width: 60%;
   margin-top: 38px;
+  font-size: 22px;
+}
+/* line 60, ../sass/style.scss */
+.menu.main-menu a {
+  color: #cb6898 !important;
+}
+/* line 62, ../sass/style.scss */
+.menu.main-menu a:hover, .menu.main-menu a:active {
+  color: #df5497 !important;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .menu.secondary {
   margin-top: 38px;
+  border: none;
+}
+/* line 71, ../sass/style.scss */
+.menu.secondary a {
+  color: #cb6898 !important;
+}
+/* line 73, ../sass/style.scss */
+.menu.secondary a:hover, .menu.secondary a:active {
+  color: #df5497 !important;
+}
+
+/* line 80, ../sass/style.scss */
+.footer {
+  background-color: #f8f8f8;
+  border: 2px solid #e7e7e7;
+  min-height: 100px !important;
+  width: 100% !important;
+}
+/* line 85, ../sass/style.scss */
+.footer .block-system {
+  text-align: center;
+  margin-top: 38px;
+}
+
+/* line 91, ../sass/style.scss */
+.form-submit {
+  background-color: #f14e32;
+  border: 4px solid #f14e32;
+  color: #fff;
+}
+
+/* line 97, ../sass/style.scss */
+h1, h2 {
+  font-size: 24px !important;
 }
