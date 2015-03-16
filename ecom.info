@@ -11,3 +11,8 @@ stylesheets[all][] = css/style.css
 ; Script file to custome theme
 
 scripts[] = js/script.js
+
+; Including bootstrap support library
+
+stylesheets[all][] = include/bootstrap/css/bootstrap.css
+scripts[]= include/bootstrap/js/bootstrap.min.js
