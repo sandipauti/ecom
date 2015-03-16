@@ -67,7 +67,7 @@ function ecom_menu_tree(&$variables) {
  * Bootstrap theme wrapper function for the primary menu links.
  */
 function ecom_menu_tree__primary(&$variables) {
-  return '<ul class="menu nav navbar-nav">' . $variables['tree'] . '</ul>';
+  return '<ul class="menu nav navbar-nav main-menu">' . $variables['tree'] . '</ul>';
 }
 
 /**

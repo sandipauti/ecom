@@ -1,5 +1,49 @@
-/* line 1, ../sass/style.scss */
+/* line 2, ../sass/style.scss */
 body {
   margin: 0;
   padding: 0;
+}
+
+/* line 9, ../sass/style.scss */
+.view-product-cateloge ul li {
+  display: inline-block;
+  width: 30%;
+}
+@media only screen and (max-width: 640px) {
+  /* line 9, ../sass/style.scss */
+  .view-product-cateloge ul li {
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 9, ../sass/style.scss */
+  .view-product-cateloge ul li {
+    width: 30.33%;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 24, ../sass/style.scss */
+  .col-sm-9 {
+    width: 100% !important;
+  }
+}
+
+/* line 30, ../sass/style.scss */
+.navbar-header {
+  width: 127px;
+  height: 127px;
+}
+
+/* line 35, ../sass/style.scss */
+.menu.main-menu {
+  width: 60%;
+  margin-top: 38px;
+}
+
+/* line 39, ../sass/style.scss */
+.menu.secondary {
+  margin-top: 38px;
 }
