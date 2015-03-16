@@ -16,3 +16,13 @@ scripts[] = js/script.js
 
 stylesheets[all][] = include/bootstrap/css/bootstrap.css
 scripts[]= include/bootstrap/js/bootstrap.min.js
+
+; Custome regions for theme
+
+regions['top_bar'] = Top bar region
+regions['header'] = Header region
+regions['navigation'] = Navigaion region
+regions['content'] = Main site content
+regions['content_bottom'] = Content bottom region
+regions['help'] = Help
+regions['footer'] = Footer region
