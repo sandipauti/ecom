@@ -1,0 +1,13 @@
+;Info file include metadata about theme
+name = Ecom
+description = First Eccomerce theme using bootstrap framework
+core = 7.x
+screenshot = screenshot.jpg
+version = VERSION
+
+; Stylesheet include in the custom theme
+stylesheets[all][] = css/style.css
+
+; Script file to custome theme
+
+scripts[] = js/script.js
